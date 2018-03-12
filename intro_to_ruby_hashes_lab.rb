@@ -3,12 +3,21 @@ def new_hash
 end
 
 def actor
+<<<<<<< HEAD
  	hsh={:name=>"Dwayne The Rock Johnson"}
+=======
+ 	hsh={}
+	hsh[:name]="Dwayne The Rock Johnson"
+>>>>>>> 77781b7f61bfe8dd0ae5a37b255fb0a8048e1ca9
 end
 
 def monopoly
 
+<<<<<<< HEAD
 	monopoly={:railroads=>{}}
+=======
+	monopoly[:railroads]={}
+>>>>>>> 77781b7f61bfe8dd0ae5a37b255fb0a8048e1ca9
 
 end
 
@@ -48,10 +57,17 @@ def monopoly_with_fourth_tier
 		    railroads: {
 		      pieces: 4,
 		      names: {
+<<<<<<< HEAD
 		        reading_railroad: {"mortgage_value" => "$100"},
 		        pennsylvania_railroad: {"mortgage_value" => "$200"},
 		        b_and_o_railroad: {"mortgage_value" => "$400"},
 		        shortline: {"mortgage_value" => "$800"}
+=======
+		        reading_railroad: {},
+		        pennsylvania_railroad: {},
+		        b_and_o_railroad: {},
+		        shortline: {}
+>>>>>>> 77781b7f61bfe8dd0ae5a37b255fb0a8048e1ca9
 		      },
 		      rent_in_dollars: {
 		        one_piece_owned: 25,
